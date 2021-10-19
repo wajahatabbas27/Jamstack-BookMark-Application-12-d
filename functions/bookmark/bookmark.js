@@ -19,23 +19,23 @@ const typeDefs = gql`
   }
 `
 
-// const authors = [
-//   {
-//     id: 1,
-//     url: "https://github.com/daniyalnagori/bookmarking-app/blob/master/gatsby-browser.js",
-//     desc: "daniyal nagori repo",
-//   },
-//   {
-//     id: 2,
-//     url: "https://dashboard.fauna.com/db/global/bookmarks",
-//     desc: "fauna-db dashboard",
-//   },
-//   {
-//     id: 3,
-//     url: "https://www.youtube.com/watch?v=FPH7NYrdBgY&t=912s",
-//     desc: "bootcamp class project 12-d",
-//   },
-// ]
+const authors = [
+  {
+    id: 1,
+    url: "https://github.com/daniyalnagori/bookmarking-app/blob/master/gatsby-browser.js",
+    desc: "daniyal nagori repo",
+  },
+  {
+    id: 2,
+    url: "https://dashboard.fauna.com/db/global/bookmarks",
+    desc: "fauna-db dashboard",
+  },
+  {
+    id: 3,
+    url: "https://www.youtube.com/watch?v=FPH7NYrdBgY&t=912s",
+    desc: "bootcamp class project 12-d",
+  },
+]
 
 const resolvers = {
   Query: {
